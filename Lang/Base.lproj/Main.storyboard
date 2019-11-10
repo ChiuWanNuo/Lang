@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IZo-gS-4Wq">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="crayon_1-1.ttf">
+            <string>Nagurigaki-Crayon</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lang" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhD-Cu-s7d">
+                                <rect key="frame" x="20" y="87" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="24"/>
+                                <state key="normal" title="浪浪的事 ABOUT LANGLANG">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mER-qP-nOR" kind="show" id="mjh-Xc-d4A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPg-ME-nZb">
+                                <rect key="frame" x="19" y="193" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="24"/>
+                                <state key="normal" title="等家的浪浪FAITH HOPE LOVE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Nzd-7b-3GC" kind="show" id="AcV-4n-pbw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2u-pV-SS0">
+                                <rect key="frame" x="20" y="297" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="24"/>
+                                <state key="normal" title="餐点MEUN">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FW7-8c-cqg" kind="show" id="SLv-fC-tIy"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9eI-hO-ika">
+                                <rect key="frame" x="81" y="439" width="250" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="HhV-Of-sz4">
+                                        <rect key="frame" x="0.0" y="0.0" width="1000" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D1" translatesAutoresizingMaskIntoConstraints="NO" id="3ON-hG-y8e">
+                                                <rect key="frame" x="39" y="0.0" width="175" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C1" translatesAutoresizingMaskIntoConstraints="NO" id="DCl-nh-efK">
+                                                <rect key="frame" x="290" y="0.0" width="175" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="D2" translatesAutoresizingMaskIntoConstraints="NO" id="7rO-TG-sKg">
+                                                <rect key="frame" x="541" y="0.0" width="175" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C2" translatesAutoresizingMaskIntoConstraints="NO" id="oBD-Vn-gWO">
+                                                <rect key="frame" x="781" y="0.0" width="175" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="pIW-Hx-pxV"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="eg2-PU-8pQ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="EwX-q9-KkB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1000" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="kcM-Jz-LLb"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952.1739130434785" y="115.7608695652174"/>
+        </scene>
+        <!--浪浪的事 ABOUT LANGLANG-->
+        <scene sceneID="l34-WE-T4e">
+            <objects>
+                <tableViewController id="mER-qP-nOR" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="m4r-5C-cXz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="n0h-Bl-C4c">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="269" id="LNQ-gW-dc0">
+                                        <rect key="frame" x="20" y="18" width="374" height="269"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LNQ-gW-dc0" id="9Rp-Dp-P2d">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="269"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪浪的事1" translatesAutoresizingMaskIntoConstraints="NO" id="Cns-pd-kWa">
+                                                    <rect key="frame" x="62" y="0.0" width="255" height="186"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="看到流浪貓狗怎麼辦？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSN-GD-XwC">
+                                                    <rect key="frame" x="46" y="181" width="287" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="首先要跟您說明，浪浪別哭是一間小型餐廳兼做流浪動物中..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAV-4T-vyJ">
+                                                    <rect key="frame" x="69" y="218" width="255" height="39"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Daq-v5-M8U">
+                                                    <rect key="frame" x="237" y="232" width="81" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="READ MORE">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="LZx-za-mZi" kind="show" id="kES-3R-qKY"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="QKy-6F-auH">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="288" id="CPO-LY-vXH">
+                                        <rect key="frame" x="20" y="323" width="374" height="288"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CPO-LY-vXH" id="1nr-sW-ps0">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="288"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪浪的事2" translatesAutoresizingMaskIntoConstraints="NO" id="qMj-zX-Uip">
+                                                    <rect key="frame" x="62" y="0.0" width="255" height="186"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3% 用在哪？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScD-2g-Lgm">
+                                                    <rect key="frame" x="46" y="186" width="287" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="在浪浪別哭的線上分店、台北店及台中店每個月營業額的3%..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVr-QO-wMM">
+                                                    <rect key="frame" x="69" y="230" width="255" height="39"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-rP-2sd">
+                                                    <rect key="frame" x="241" y="244" width="81" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="READ MORE">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="aQC-cC-gxl" kind="show" id="Rg3-GE-Yva"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="C9M-ss-L4W">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="288" id="BUt-5g-ED4">
+                                        <rect key="frame" x="20" y="647" width="374" height="288"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BUt-5g-ED4" id="B6A-yB-zcY">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="288"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪浪的事3" translatesAutoresizingMaskIntoConstraints="NO" id="8m5-lt-B1Q">
+                                                    <rect key="frame" x="62" y="0.0" width="255" height="186"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="幫助牠們結紮" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpm-hT-1Pk">
+                                                    <rect key="frame" x="46" y="186" width="287" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="有沒有發現浪浪怎麼救都救不完，幫助一隻找到家卻又到處..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJu-n2-Adw">
+                                                    <rect key="frame" x="69" y="230" width="255" height="39"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW1-4N-Mly">
+                                                    <rect key="frame" x="237" y="245" width="81" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="READ MORE">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="2LB-3n-ZFL" kind="show" id="80e-nC-FWd"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="M5a-vE-mbY">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="288" id="IHg-Ug-bLj">
+                                        <rect key="frame" x="0.0" y="971" width="374" height="288"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IHg-Ug-bLj" id="ckg-H7-sFM">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="288"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪浪的事4" translatesAutoresizingMaskIntoConstraints="NO" id="NQX-cE-cGp">
+                                                    <rect key="frame" x="62" y="0.0" width="255" height="186"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="浪浪大明星粉絲團 / IG攻略" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AxO-rn-GiN">
+                                                    <rect key="frame" x="46" y="186" width="287" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="這邊是在浪浪別哭找到家的孩子們回家後爸拔媽麻幫他們開..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbO-ns-Ay6">
+                                                    <rect key="frame" x="69" y="230" width="255" height="39"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCE-Q4-KOJ">
+                                                    <rect key="frame" x="236" y="246" width="81" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="READ MORE">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="Fp5-9w-MQb" kind="show" id="nSb-qD-J1y"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRj-JO-XU7">
+                                                    <rect key="frame" x="236" y="157" width="81" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="READ MORE">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="mER-qP-nOR" id="ZL3-40-LhS"/>
+                            <outlet property="delegate" destination="mER-qP-nOR" id="AJ5-18-rUh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="浪浪的事 ABOUT LANGLANG" id="ujR-cS-Ouy"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ugx-ed-80c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2821.739130434783" y="-182.60869565217394"/>
+        </scene>
+        <!--看到流浪貓狗怎麼辦？-->
+        <scene sceneID="cU3-Mh-a9G">
+            <objects>
+                <tableViewController id="LZx-za-mZi" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="5pN-YL-VaQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="MKF-Ax-n6e">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="2205" id="s1y-iA-iyD">
+                                        <rect key="frame" x="20" y="18" width="374" height="2205"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s1y-iA-iyD" id="5fv-2L-B4Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="2205"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMp-Wb-0fT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="2163"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">首先要先跟您說明，浪浪別哭是一間小型餐廳兼做流浪動物中途，
+我們沒有提供救援及收容服務
+ 
+浪浪人力資源有限，專注在送養上，
+為保持運作流暢，我們有與固定從事救援的愛媽配合，
+ 
+因為救援到送養是一條非常漫長的路，且也需要多方合作以及各種資源才有辦法完成，
+我們也才能長期的順利運轉下去，替更多數的流浪動物長久謀福下去
+ 
+我們從年頭到年尾、從睜眼到閉眼不斷的有求援訊息，
+餐廳及照顧、送養工作已經讓我們忙得不可開交，實在無法再一一細回爆量的求援訊息
+更無能為力救援及收容大家所遇見的每一隻流浪動物，請大家多多體諒。
+ 
+但是，我一直相信，愛爸愛媽可以做到的，一般人也可以做到！
+尤其是，一般人一年裡恐怕也只會撿到那麼一兩隻小貓小狗，
+但是愛爸愛媽或中途，一年裡會遇到的小貓小狗，十隻手指頭也數不完。
+所以如果每個人都能伸出手，做自己作得到的事，合起來的力量才會大！
+ 
+那麼，如果你撿到浪浪該怎麼辦呢？
+
+第一步：請先帶他至醫院檢查有無晶片，身體有無異狀，並替狗貓做簡單的體內外驅蟲，視情況打預防針及其它檢查手續。成犬成貓會先做絕育手術。
+第二步：若家中可以暫時收容，先帶回家，或者可以花費寄宿在醫院．若都不行，暫時原地餵養。
+第三步：幫狗貓拍照上網送養，也可找有認養活動的地方送養。
+第四步：若狗貓的送養條件低一直送不出去，至少將狗貓絕育後原地放養。以免產生更多的無辜小生命。讓流浪到牠為止！
+ 
+千萬千萬要替長期從事救援的愛爸愛媽找想！
+若是接手的人因為壓力過大，收支不平衡、支撐不下去了，整體來說豈不是更糟嗎？願意救援流浪動物的協會、個人中途，再怎麼有心，資源總是有限。
+ 
+最好的方法就是請您親自救援、安置您遇到的那一隻浪浪，
+這樣才能提供他比較好的照顧品質！只要願意一定每個人都可以照顧好一隻動物的！
+
+那，你該怎麼送養呢？
+首先，你可以替他拍照、寫故事，並且PO上網
+ 
+可以PO在這些社團裡讓他們有機會曝光
+ 
+如果是狗狗的話請PO在：
+l   狗認領養平台：
+http://tinyurl.com/j6t83ke
+l   我要當流浪動物義工：
+https://www.facebook.com/groups/281810418583377/?fref=ts
+l   認養與愛護流浪動物愛心實現團：
+https://www.facebook.com/groups/170853606363580/l   
+米克斯傳奇：
+https://www.facebook.com/groups/752971828086206/
+ 
+如果是貓咪的話建議PO至
+l   領養貓咪：
+https://www.facebook.com/helpingcat/?fref=ts
+l   我要領養：
+https://www.facebook.com/groups/134006006745444/?fref=ts
+l   貓咪也瘋狂俱樂部CrazyCat club：
+https://www.facebook.com/groups/Crazymomi/?fref=ts
+l   黃阿瑪：
+https://www.facebook.com/fumeancats/?fref=ts
+ 
+或者也可以從網路上搜尋到更多能夠曝光的相關網站
+ 
+另外，你可以積極的參加送養活動，例如：
+ 
+l     週末花市動保團體舉辦的送養活動、每週末綠園道舉辦的送養活動
+ 
+請嘗試看看以上或者其它更多方法，
+讓您遇到的浪浪有更多的曝光，增加送養機率喔，感謝您對動物的付出！
+如果每個人都能伸出手，做自己作得到的事，合起來的力量才會大！
+ 
+（文章參考出處：
+http://stupidlove34.pixnet.net/blog/post/18577744）</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="LZx-za-mZi" id="PcX-Ls-4hi"/>
+                            <outlet property="delegate" destination="LZx-za-mZi" id="egH-Dh-Wdh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="看到流浪貓狗怎麼辦？" id="GAl-7F-fxN"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5K8-Uh-CQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3495.652173913044" y="-182.60869565217394"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FPn-lk-shk">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="IZo-gS-4Wq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V3f-c6-VjG">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="olk-XP-XHL" kind="relationship" relationship="viewControllers" id="QP1-Mx-W7l"/>
+                        <segue destination="TbU-3H-axe" kind="relationship" relationship="viewControllers" id="eAV-xc-bn0"/>
+                        <segue destination="WsH-4X-UgN" kind="relationship" relationship="viewControllers" id="eRY-xB-vER"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Yc-PD-HGp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.7608695652174"/>
+        </scene>
+        <!--HOME-->
+        <scene sceneID="a2N-L5-USq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="olk-XP-XHL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="HOME" image="house" catalog="system" id="CDQ-rR-XB5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UnE-xl-QpO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IY7-iV-gtD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Du-Yq-NHw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="115.7608695652174"/>
+        </scene>
+        <!--ABOUT US-->
+        <scene sceneID="5H2-Uf-eyu">
+            <objects>
+                <viewController id="CRH-Yd-oAd" customClass="ViewController" customModule="Lang" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Uf-EL-38U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="品牌故事" translatesAutoresizingMaskIntoConstraints="NO" id="68h-Ro-dUd">
+                                <rect key="frame" x="0.0" y="57" width="414" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="這 裡 让 愛 不 流 浪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYJ-q3-WXZ">
+                                <rect key="frame" x="0.0" y="259" width="414" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxJ-gx-jOM">
+                                <rect key="frame" x="0.0" y="320" width="414" height="349"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">流浪動物除了在街頭流浪外，
+能去的地方就是「收容所」及「私人狗園」，
+
+但因為收容及狗園的動物量通常都很多，
+為了避免噪音氣味干擾鄰居，
+所以通常都會蓋得離人群很遠，
+
+距離的關係，
+民眾無法接觸到狗園及收容所，
+更別說能實踐「領養」了...
+
+於是我們租下了兩層老屋，
+興起「在市中心打造一個浪浪中途之家」的想法！
+
+以咖啡廳的模式獲利，
+讓我們能夠自給自足長期營運，
+幫助一隻又一隻的浪浪回家！
+
+即使沒有辦法領養也沒關係，
+只要來這裡喝咖啡、吃個東西
+我們都將每筆消費的3%捐給
+「TNVR流浪動物助紮計畫」。
+
+台北店：台北市中正區林森北路9巷13號
+台中店：台中市南屯區黎明新村干城街214巷1號
+
+你我都可以幫助浪浪
+
+關於我們影片&gt;https://youtu.be/Nclh89OAPEg
+
+-------------------------------------------------------
+ 《如是有指定要坐狗區或貓區請在訂位時告知》
+《如是想領養可以在訂位時告訴工作人員來看哪隻浪浪喔～》
+《未開放攜帶貓咪》
+《台北店未開放帶狗，若來台中店想帶狗狗朋友特別注意》：
+如是您前來浪浪有要帶狗狗來，再次提醒您，
+浪浪別哭是一間「流浪動物中途餐廳」
+這裡的空間是屬於浪浪，
+浪浪們因從小沒有受過良好的照顧與教導，
+來的時間都不長學習狀況不一
+極有可能無法聽話乖巧，
+也可能會有保護地盤的情況發生，
+若您的狗狗不屬於高度穩定溫和、社交能力極強，
+又或者您非常介意毛孩之間可能打架受傷
+那麼，我們建議您還是不要帶狗狗來比較好，
+相信這麼一來您也能比較輕鬆悠閒的
+度過在浪浪用餐的時光喔～
+
+非常感謝，期待您的蒞臨～^_^ 
+台北店營業時間：周ㄧ至周日12:00~21:00，16:00-17:30備餐期不供應正餐
+台中店營業時間：周三公休、
+週一至週五12:00-21:00  16:00-17:00備餐期不供應正餐
+週六、日11:00-21:00備餐期不供應正餐</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="8PS-r4-xRy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ABOUT US" id="0ts-bl-UM9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zNM-eB-S1n" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-588.40579710144937" y="966.84782608695662"/>
+        </scene>
+        <!--ABOUT US-->
+        <scene sceneID="y5t-gi-tL2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TbU-3H-axe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ABOUT US" image="heart.circle" catalog="system" id="Iat-Y7-NcK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2i5-H0-dSX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CRH-Yd-oAd" kind="relationship" relationship="rootViewController" id="Opo-VB-By6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LvZ-sn-jUX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1362" y="967"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IgD-Em-lic">
+            <objects>
+                <viewController id="FW7-8c-cqg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eeV-1h-xg0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nra-GJ-RZV">
+                                <rect key="frame" x="19" y="203" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                <state key="normal" title="甜食 DESSERTS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qse-rQ-zbp" kind="show" id="fQL-ll-AS3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc7-Le-7MH">
+                                <rect key="frame" x="19" y="319" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                <state key="normal" title="飲料 BEVERAGES">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GMT-eH-Bjn" kind="show" id="WHD-hn-y6h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeI-OS-mgS">
+                                <rect key="frame" x="19" y="436" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                <state key="normal" title="寵物 PET FOOD">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oaU-1z-Kak" kind="show" id="beN-bv-FvP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRF-Qm-Xvo">
+                                <rect key="frame" x="18" y="87" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                <state key="normal" title="主食 MAIN DISH">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xHX-bf-he2" kind="show" id="Cb5-rt-AXd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4l-Ki-yKz">
+                                <rect key="frame" x="20" y="553" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                <state key="normal" title="用餐需知 NOTICE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="k1y-a3-6HR" kind="show" id="kiB-Lh-vdp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hbK-NV-SaE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O1F-0x-B3H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8VT-v9-XPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1950.7246376811595" y="913.85869565217399"/>
+        </scene>
+        <!--SHOP-->
+        <scene sceneID="zCB-sz-1iX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WsH-4X-UgN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="SHOP" image="cube.box" catalog="system" id="ZzY-9m-Gf0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="orI-O7-NgV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Urm-qH-5V1" kind="relationship" relationship="rootViewController" id="Zc2-wU-RhM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WSm-cE-ue8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="967"/>
+        </scene>
+        <!--等家的浪浪FAITH HOPE LOVE-->
+        <scene sceneID="oPO-Nk-7Eo">
+            <objects>
+                <tableViewController id="Nzd-7b-3GC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="ubp-j8-1hb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137842465757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection headerTitle="狗狗 DOGS" id="1FX-K4-jmL">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="314" id="MIW-GC-XF7">
+                                        <rect key="frame" x="20" y="55.333332061767578" width="374" height="314"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MIW-GC-XF7" id="Tve-i8-KyR">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪酷寶7" translatesAutoresizingMaskIntoConstraints="NO" id="ZgA-O7-j5M">
+                                                    <rect key="frame" x="10" y="14" width="182" height="286"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dP-eA-KKg">
+                                                    <rect key="frame" x="198" y="124" width="176" height="177"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <string key="text">浪浪別哭領養條件：
+條件說明：
+1、必須親自來與浪浪互動。
+原因：避免只看照片領養回去發現跟想不同退/棄養
+2、年滿25歲、經濟穩定者，
+未滿者需由家長同意並且簽領養切結書
+原因：年紀太輕擔心思考不夠周全以及經濟狀況不穩定，
+所以需有成年家人共同承擔。
+3、不接受養前後院、放養、顧工廠、農地
+原因：毛孩是家人。
+4、幼犬比較調皮，需要非常多時間與耐心教導 
+（每個孩子到新環境都需要1~2周適應時間，如無法給予，請勿嘗試）
+原因：提醒不能光看幼犬可愛，可愛的背後有許多需要包容情況。
+規定：
+1、定期回報追蹤一次 ，同意家訪（不會隨意去打擾）
+原因：這是保護無法說話的孩子們到家後真的都平安。
+2、每年疫苗施打，預防藥使用
+原因：這是保護孩子的健康，也提醒領養人這些動作的重要性。
+3、晶片不轉移，定期回報狗狗狀況（ㄧ個月至少ㄧ次）
+（如沒有定期回報者，將依照切結書內容強制要回此寵物）
+原因：若不幸發生棄養情況，因為晶片資料還是我們的所以我們會知道
+不讓毛孩再度成為浪浪。
+4、領養切結書簽訂
+如動物走失沒第一時間告知，可以依切結書內容訴訟，
+要求領養人賠償送養人新台幣二十萬元整 
+原因：此條是告訴領養人若不幸走失「一定」
+要通知我們在黃金時刻趕快派人一起尋找。
+5、支付領養費3,000元，幫助「救援者」幫助下一隻浪浪
+原因：養動物一生所需要的費用可觀，
+這也是一個測驗，能發現對方願不願意在毛孩身上花錢，
+同時希望能小小回饋給救援者，讓他們用於幫助下一隻浪浪，
+創造源源不斷的善循環。
+6、請讓我們因為毛孩成為一家人吧！：）</string>
+                                                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2Y-mc-3Of">
+                                                    <rect key="frame" x="207" y="25" width="150" height="75"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                                    <state key="normal" title="浪酷宝">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="LWg-ff-mO1" kind="show" id="PXz-so-gs3"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="314" id="bMR-jH-y1T">
+                                        <rect key="frame" x="20" y="369.33333206176758" width="374" height="314"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bMR-jH-y1T" id="Det-i2-EfS">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪王子1" translatesAutoresizingMaskIntoConstraints="NO" id="Xdo-27-APt">
+                                                    <rect key="frame" x="10" y="14" width="182" height="286"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzs-9E-8jM">
+                                                    <rect key="frame" x="198" y="124" width="176" height="177"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <string key="text">浪浪別哭領養條件：
+條件說明：
+1、必須親自來與浪浪互動。
+原因：避免只看照片領養回去發現跟想不同退/棄養
+2、年滿25歲、經濟穩定者，
+未滿者需由家長同意並且簽領養切結書
+原因：年紀太輕擔心思考不夠周全以及經濟狀況不穩定，
+所以需有成年家人共同承擔。
+3、不接受養前後院、放養、顧工廠、農地
+原因：毛孩是家人。
+4、幼犬比較調皮，需要非常多時間與耐心教導 
+（每個孩子到新環境都需要1~2周適應時間，如無法給予，請勿嘗試）
+原因：提醒不能光看幼犬可愛，可愛的背後有許多需要包容情況。
+規定：
+1、定期回報追蹤一次 ，同意家訪（不會隨意去打擾）
+原因：這是保護無法說話的孩子們到家後真的都平安。
+2、每年疫苗施打，預防藥使用
+原因：這是保護孩子的健康，也提醒領養人這些動作的重要性。
+3、晶片不轉移，定期回報狗狗狀況（ㄧ個月至少ㄧ次）
+（如沒有定期回報者，將依照切結書內容強制要回此寵物）
+原因：若不幸發生棄養情況，因為晶片資料還是我們的所以我們會知道
+不讓毛孩再度成為浪浪。
+4、領養切結書簽訂
+如動物走失沒第一時間告知，可以依切結書內容訴訟，
+要求領養人賠償送養人新台幣二十萬元整 
+原因：此條是告訴領養人若不幸走失「一定」
+要通知我們在黃金時刻趕快派人一起尋找。
+5、支付領養費3,000元，幫助「救援者」幫助下一隻浪浪
+原因：養動物一生所需要的費用可觀，
+這也是一個測驗，能發現對方願不願意在毛孩身上花錢，
+同時希望能小小回饋給救援者，讓他們用於幫助下一隻浪浪，
+創造源源不斷的善循環。
+6、請讓我們因為毛孩成為一家人吧！：）</string>
+                                                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bka-mN-xt2">
+                                                    <rect key="frame" x="208" y="25" width="150" height="75"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                                    <state key="normal" title="浪王子">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="tZG-QD-5Ec" kind="show" id="lS7-4x-tjV"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="貓咪CATS" id="Ejj-sJ-OlR">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="314" id="vYh-mX-Mxx">
+                                        <rect key="frame" x="0.0" y="739.33333206176758" width="374" height="314"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vYh-mX-Mxx" id="epZ-HR-MeH">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪貓1" translatesAutoresizingMaskIntoConstraints="NO" id="Mq7-Rv-hf9">
+                                                    <rect key="frame" x="10" y="14" width="182" height="286"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ii-UN-iUk">
+                                                    <rect key="frame" x="198" y="124" width="176" height="177"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <string key="text">浪浪別哭領養條件：
+條件說明：
+1、必須親自來與浪浪互動。
+原因：避免只看照片領養回去發現跟想不同退/棄養
+2、年滿25歲、經濟穩定者，
+未滿者需由家長同意並且簽領養切結書
+原因：年紀太輕擔心思考不夠周全以及經濟狀況不穩定，
+所以需有成年家人共同承擔。
+3、不接受養前後院、放養、顧工廠、農地
+原因：毛孩是家人。
+4、幼犬比較調皮，需要非常多時間與耐心教導 
+（每個孩子到新環境都需要1~2周適應時間，如無法給予，請勿嘗試）
+原因：提醒不能光看幼犬可愛，可愛的背後有許多需要包容情況。
+規定：
+1、定期回報追蹤一次 ，同意家訪（不會隨意去打擾）
+原因：這是保護無法說話的孩子們到家後真的都平安。
+2、每年疫苗施打，預防藥使用
+原因：這是保護孩子的健康，也提醒領養人這些動作的重要性。
+3、晶片不轉移，定期回報狗狗狀況（ㄧ個月至少ㄧ次）
+（如沒有定期回報者，將依照切結書內容強制要回此寵物）
+原因：若不幸發生棄養情況，因為晶片資料還是我們的所以我們會知道
+不讓毛孩再度成為浪浪。
+4、領養切結書簽訂
+如動物走失沒第一時間告知，可以依切結書內容訴訟，
+要求領養人賠償送養人新台幣二十萬元整 
+原因：此條是告訴領養人若不幸走失「一定」
+要通知我們在黃金時刻趕快派人一起尋找。
+5、支付領養費3,000元，幫助「救援者」幫助下一隻浪浪
+原因：養動物一生所需要的費用可觀，
+這也是一個測驗，能發現對方願不願意在毛孩身上花錢，
+同時希望能小小回饋給救援者，讓他們用於幫助下一隻浪浪，
+創造源源不斷的善循環。
+6、請讓我們因為毛孩成為一家人吧！：）</string>
+                                                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze3-GP-6OA">
+                                                    <rect key="frame" x="185" y="-1" width="150" height="75"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                                    <state key="normal" title="浪志企">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIA-2T-APe">
+                                                    <rect key="frame" x="200" y="68" width="107" height="47"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">約2018年7月出生
+男生
+愛玩但有一點害羞</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="314" id="1rJ-8Y-B4C">
+                                        <rect key="frame" x="0.0" y="1053.3333320617676" width="374" height="314"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1rJ-8Y-B4C" id="bsv-e0-t18">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪貓2" translatesAutoresizingMaskIntoConstraints="NO" id="tLT-es-U0Y">
+                                                    <rect key="frame" x="10" y="14" width="182" height="286"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJF-eS-DhU">
+                                                    <rect key="frame" x="198" y="124" width="176" height="177"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <string key="text">浪浪別哭領養條件：
+條件說明：
+1、必須親自來與浪浪互動。
+原因：避免只看照片領養回去發現跟想不同退/棄養
+2、年滿25歲、經濟穩定者，
+未滿者需由家長同意並且簽領養切結書
+原因：年紀太輕擔心思考不夠周全以及經濟狀況不穩定，
+所以需有成年家人共同承擔。
+3、不接受養前後院、放養、顧工廠、農地
+原因：毛孩是家人。
+4、幼犬比較調皮，需要非常多時間與耐心教導 
+（每個孩子到新環境都需要1~2周適應時間，如無法給予，請勿嘗試）
+原因：提醒不能光看幼犬可愛，可愛的背後有許多需要包容情況。
+規定：
+1、定期回報追蹤一次 ，同意家訪（不會隨意去打擾）
+原因：這是保護無法說話的孩子們到家後真的都平安。
+2、每年疫苗施打，預防藥使用
+原因：這是保護孩子的健康，也提醒領養人這些動作的重要性。
+3、晶片不轉移，定期回報狗狗狀況（ㄧ個月至少ㄧ次）
+（如沒有定期回報者，將依照切結書內容強制要回此寵物）
+原因：若不幸發生棄養情況，因為晶片資料還是我們的所以我們會知道
+不讓毛孩再度成為浪浪。
+4、領養切結書簽訂
+如動物走失沒第一時間告知，可以依切結書內容訴訟，
+要求領養人賠償送養人新台幣二十萬元整 
+原因：此條是告訴領養人若不幸走失「一定」
+要通知我們在黃金時刻趕快派人一起尋找。
+5、支付領養費3,000元，幫助「救援者」幫助下一隻浪浪
+原因：養動物一生所需要的費用可觀，
+這也是一個測驗，能發現對方願不願意在毛孩身上花錢，
+同時希望能小小回饋給救援者，讓他們用於幫助下一隻浪浪，
+創造源源不斷的善循環。
+6、請讓我們因為毛孩成為一家人吧！：）</string>
+                                                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7J-Uo-B9J">
+                                                    <rect key="frame" x="185" y="-1" width="150" height="75"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="35"/>
+                                                    <state key="normal" title="浪海苔">
+                                                        <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iee-CJ-dpi">
+                                                    <rect key="frame" x="203" y="69" width="105" height="47"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">約2019年3月出生
+女生
+圖騰美型臉</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Nzd-7b-3GC" id="e9Y-ML-REu"/>
+                            <outlet property="delegate" destination="Nzd-7b-3GC" id="5hT-E7-FqT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="等家的浪浪FAITH HOPE LOVE" id="CGM-bA-BCh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRT-Kf-MqJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2821.739130434783" y="534.78260869565224"/>
+        </scene>
+        <!--浪酷寶等一個家-->
+        <scene sceneID="Bto-4i-7Qw">
+            <objects>
+                <viewController id="LWg-ff-mO1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lw0-nD-sqk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkv-dQ-MaL">
+                                <rect key="frame" x="40" y="89" width="330" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="Apg-uO-kfd">
+                                        <rect key="frame" x="0.0" y="0.0" width="1680" height="225"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪酷寶1" translatesAutoresizingMaskIntoConstraints="NO" id="aeF-pb-0pJ">
+                                                <rect key="frame" x="30" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪酷寶2" translatesAutoresizingMaskIntoConstraints="NO" id="cea-8E-9eu">
+                                                <rect key="frame" x="360" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪酷寶3" translatesAutoresizingMaskIntoConstraints="NO" id="954-kG-xwW">
+                                                <rect key="frame" x="690" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪酷寶4" translatesAutoresizingMaskIntoConstraints="NO" id="YwB-ve-zYG">
+                                                <rect key="frame" x="1020" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪酷寶5" translatesAutoresizingMaskIntoConstraints="NO" id="rfQ-Dp-jgk">
+                                                <rect key="frame" x="1350" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="Drf-cE-g4r"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="gqd-FW-r5y"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7Ru-0d-GtY"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1680" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R9y-Jv-KYD">
+                                <rect key="frame" x="40" y="350" width="330" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">中途工作最開心的事情之一 就是親眼看見原本不開心的孩子變得開心！ 一個月的時間 讓原本滿是厭世臭臉的孩子恢復了應有的天真笑臉 一個月的時間 讓原本被摸就會嚇得驚聲尖叫的孩子明白被擁抱的美好（圖2） 一個月的時間 讓原本世代不願意相信人類的浪犬了解 這世界真有能夠與他們好好相愛的人類 雖然酷寶依然稱不上親人 雖然酷寶還是會下意識的閃躲人類... 在浪浪一個月的時間， 我們每天替他做熟人touch、陌生人餵食、觸摸 看胸背、穿胸背、 嗅聞、穿胸背探索、出門散步等等 進度有些緩慢沒錯， 但我希望酷寶在良好的感受下成長， 並非關籠硬摸的狀態下讓他無處可逃只能接受被摸， 很開心這一個月的相處， 能感受到這臭臉孩子其實很想忘記媽媽的話... 一天一天的配合我們的帶領 好好的、勇敢的、循序漸進的， 開始勇接受人類 看著酷寶一天一天腳踏實地的進步 我感謝上天帶他來到我們身邊 因為他讓我們重新感受這份工作的美好 也期待那個愛他的家庭出現， 與我們一起陪著酷寶繼續成長改變 你願意接力嗎？ 持續的、溫柔的，呵護著這有無窮潛力的小帥哥 陪著他一點一點慢慢慢慢的全然愛上這世界 :)  #浪浪別哭  #這裡讓愛不流浪  #浪酷寶等一個家</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="YcQ-K5-38Y"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="浪酷寶等一個家" id="em9-AA-Bhf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6gF-T6-6Dc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3495.652173913044" y="534.78260869565224"/>
+        </scene>
+        <!--主食 MAIN DISH-->
+        <scene sceneID="zp7-hw-ErI">
+            <objects>
+                <tableViewController id="xHX-bf-he2" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uqi-YA-iAd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="gMT-Am-MNG">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="Ury-wg-Zg5">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ury-wg-Zg5" id="elk-Gb-7b6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單2" translatesAutoresizingMaskIntoConstraints="NO" id="UR8-RC-vGP">
+                                                    <rect key="frame" x="10" y="-15" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="w9k-Jj-LUf">
+                                        <rect key="frame" x="0.0" y="594" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w9k-Jj-LUf" id="nMa-l4-2PT">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單3" translatesAutoresizingMaskIntoConstraints="NO" id="y6w-PO-KvD">
+                                                    <rect key="frame" x="10" y="-15" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="Efc-vP-7n8">
+                                        <rect key="frame" x="0.0" y="1160" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Efc-vP-7n8" id="b2m-oC-xfT">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單4" translatesAutoresizingMaskIntoConstraints="NO" id="UBL-lN-ji8">
+                                                    <rect key="frame" x="10" y="-15" width="394" height="526"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="crz-n2-ruo">
+                                        <rect key="frame" x="0.0" y="1726" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="crz-n2-ruo" id="iiU-5d-6MC">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單5" translatesAutoresizingMaskIntoConstraints="NO" id="3HD-nk-p8s">
+                                                    <rect key="frame" x="10" y="-15" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="xHX-bf-he2" id="tXs-7s-ktT"/>
+                            <outlet property="delegate" destination="xHX-bf-he2" id="aUU-NQ-g9T"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="主食 MAIN DISH" id="KNy-uk-Tjc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gB6-7x-oWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2821.739130434783" y="1343.4782608695652"/>
+        </scene>
+        <!--甜食 DESSERTS-->
+        <scene sceneID="PEB-X5-eUh">
+            <objects>
+                <tableViewController id="qse-rQ-zbp" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZSA-Rm-ePj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="pxF-vT-Ogz">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="iKq-TW-ZTn">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iKq-TW-ZTn" id="6jS-AY-gHT">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單6" translatesAutoresizingMaskIntoConstraints="NO" id="zSM-o2-9bj">
+                                                    <rect key="frame" x="10" y="15" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="sY4-uE-MWi">
+                                        <rect key="frame" x="0.0" y="594" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sY4-uE-MWi" id="u29-5L-fW2">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單7" translatesAutoresizingMaskIntoConstraints="NO" id="1YY-5U-dQ9">
+                                                    <rect key="frame" x="10" y="24" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="TIY-gv-Wm5">
+                                        <rect key="frame" x="0.0" y="1160" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TIY-gv-Wm5" id="X1w-mF-LbV">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單8" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-4E-dCg">
+                                                    <rect key="frame" x="10" y="-15" width="394" height="526"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="1Al-x4-djW">
+                                        <rect key="frame" x="0.0" y="1726" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Al-x4-djW" id="99I-v0-kUK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單9" translatesAutoresizingMaskIntoConstraints="NO" id="kiL-wm-coo">
+                                                    <rect key="frame" x="10" y="-15" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="qse-rQ-zbp" id="jpp-YE-mZr"/>
+                            <outlet property="delegate" destination="qse-rQ-zbp" id="rL3-pz-6k6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="甜食 DESSERTS" id="0L6-GR-pMD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pj0-qd-ciu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3496" y="1343"/>
+        </scene>
+        <!--飲料 BEVERAGES-->
+        <scene sceneID="8Lg-4a-zRL">
+            <objects>
+                <tableViewController id="GMT-eH-Bjn" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zHC-Ea-NYz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="ayc-tw-Tbo">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="reK-0T-gBr">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="reK-0T-gBr" id="WRx-83-q1C">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單10" translatesAutoresizingMaskIntoConstraints="NO" id="xab-Tx-0H6">
+                                                    <rect key="frame" x="10" y="0.0" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="566" id="3a8-37-9jM">
+                                        <rect key="frame" x="0.0" y="594" width="414" height="566"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3a8-37-9jM" id="URX-Z0-bqJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="566"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單11" translatesAutoresizingMaskIntoConstraints="NO" id="p6x-Pb-k6j">
+                                                    <rect key="frame" x="10" y="-38" width="394" height="544"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="GMT-eH-Bjn" id="oTx-st-1SB"/>
+                            <outlet property="delegate" destination="GMT-eH-Bjn" id="Com-uk-1UP"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="飲料 BEVERAGES" id="6Qo-aM-7Ed"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WXH-KF-A8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4174" y="1343"/>
+        </scene>
+        <!--FOR PET-->
+        <scene sceneID="7au-hg-gZa">
+            <objects>
+                <tableViewController id="oaU-1z-Kak" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BJl-CS-jQX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="XsW-D3-Bcs">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="572" id="ff3-18-W7s">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="572"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ff3-18-W7s" id="lXY-JH-nCE">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="菜單12" translatesAutoresizingMaskIntoConstraints="NO" id="zkz-F9-Pu6">
+                                                    <rect key="frame" x="10" y="0.0" width="394" height="589"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="oaU-1z-Kak" id="Vb1-gy-jZW"/>
+                            <outlet property="delegate" destination="oaU-1z-Kak" id="ewc-5p-HLU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="FOR PET" id="ZaU-bT-74b"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="az0-zf-OqE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4874" y="1343"/>
+        </scene>
+        <!--用餐須知 NOTICE-->
+        <scene sceneID="R9N-u3-3Em">
+            <objects>
+                <tableViewController id="k1y-a3-6HR" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9th-EO-dhX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="n6i-JB-qet">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="630" id="xV9-W8-QQw">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="630"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xV9-W8-QQw" id="jQ8-PD-r4k">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="630"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notice" translatesAutoresizingMaskIntoConstraints="NO" id="uE4-5E-CI4">
+                                                    <rect key="frame" x="10" y="0.0" width="394" height="555"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="k1y-a3-6HR" id="lzX-l9-Pe0"/>
+                            <outlet property="delegate" destination="k1y-a3-6HR" id="ydY-YV-ZIU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="用餐須知 NOTICE" id="4Jb-fq-i8m"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iZb-bc-8gQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5596" y="1343"/>
+        </scene>
+        <!--浪王子等一個家-->
+        <scene sceneID="Lc2-EQ-YNl">
+            <objects>
+                <viewController id="tZG-QD-5Ec" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B5N-Av-jYB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iGY-FO-gRL">
+                                <rect key="frame" x="40" y="89" width="330" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="tRh-gg-nWu">
+                                        <rect key="frame" x="0.0" y="0.0" width="1680" height="225"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪王子2" translatesAutoresizingMaskIntoConstraints="NO" id="pUu-cW-Ryr">
+                                                <rect key="frame" x="30" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪王子3" translatesAutoresizingMaskIntoConstraints="NO" id="PjF-8T-4op">
+                                                <rect key="frame" x="360" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪王子4" translatesAutoresizingMaskIntoConstraints="NO" id="x0w-EF-6Gk">
+                                                <rect key="frame" x="690" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪王子5" translatesAutoresizingMaskIntoConstraints="NO" id="t8h-Cl-GaS">
+                                                <rect key="frame" x="1020" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪王子6" translatesAutoresizingMaskIntoConstraints="NO" id="Vp4-ho-9te">
+                                                <rect key="frame" x="1350" y="0.0" width="270" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="kIk-oh-9f1"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="pRF-go-Gxq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Y1r-XB-bhZ"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1680" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v6j-YR-9Vm">
+                                <rect key="frame" x="40" y="350" width="330" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">暑假剛開始的那天， 好多人歡欣鼓舞迎接長假的那天， 卻也是小王子被人類拋棄的那天.... 盛夏炎熱的開始， 日頭令人頭昏腦脹，好不容易結束了一天的工作， 男子一如往常的走到了停車場上了車子後插入鑰呎 準備發動引擎，正當這個時候， 車後突然傳來了嗚咽的哭聲，男子趕緊下車查看， 竟發現一隻鵝黃色長毛的小狗身體發抖著倦縮在角落 隨後男子簡單查看了小狗身上 毛色還算乾淨，而且配戴著項圈 心想或許是有人家的小狗走失了吧？ 心存盼望的帶這孩子到了醫院掃晶片， 也上了個大協尋社團發文但都沒發現有任何人在找他... 而後救援人也試著替王子發文送養 但來看的幾組人和王子互動過也都沒再有下文 輾轉之下，王子先到了台北浪浪 但密閉的空間和人來人往的環境讓王子備感壓力 因而出現了力道失控咬傷人的情況 為客人及工作人員安全 我們只好立刻作出應變 先把王子安置到有教養經驗的愛媽那 了解他為什麼出現咬人情況 愛媽照顧王子這一個月期間 發現王子活力旺盛，需要較大的運動量 早中晚帶他散步，消耗掉他的能量後 咬人的情況有大幅改善， 但也發現王子在狗群裡總是想當王 不過狗緣又不太好（因為比較粗魯） 卻還是努力的想參與狗群的玩耍， 即使沒有人要跟他玩... 也發現王子個性比較敏感 比較無法適應密閉和陌生人狗來來去去的空間 因此王子雖然還沒回到店裡來 我們還是想試試看先替他發送養文 若有意願想與王子互動的人可以到愛媽那裡看 （愛媽在台中大肚區） 如果王子能順利找到家 就能讓他免於再換一次環境 如果你有足夠的耐心願意學習如何正確地帶領王子 如果你能夠每天給予充分的時間陪伴王子放電 如果你願意讓他從落難的浪浪變身回真正的王子 王子六個月大 身體健壯，已結紮 個性較為敏感，非常之親人也喜歡狗， 不過因為不會控制力道的關係因此狗緣不太好... 需要一個願意付出時間心力去了解他帶領他的主人現身 如果你是這樣的人 歡迎你與我們聯絡到愛媽那看看他～  #這裡讓愛不流浪  #浪酷寶等一個家</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hHy-80-ifs"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="浪王子等一個家" id="OEu-Qt-1ux"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jky-8W-Kgf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4174" y="535"/>
+        </scene>
+        <!--3%用在哪？-->
+        <scene sceneID="nOr-fd-jlK">
+            <objects>
+                <tableViewController id="aQC-cC-gxl" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="hMM-H6-Hb1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="E5X-Ne-ETr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="886" id="qO1-nW-sMe">
+                                        <rect key="frame" x="20" y="18" width="374" height="886"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qO1-nW-sMe" id="leb-yJ-bDe">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="886"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DH-eN-Ygg">
+                                                    <rect key="frame" x="0.0" y="1" width="374" height="650"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text"> 在浪浪別哭的線上分店、台北店、台中店每個月營業額的3% 捐給TNVR。
+從2015年創辦浪浪別哭的初始，我們就已經設定了營業額3% 要用來幫助浪浪，為什麼是3%？
+因為這是我們一定可以做到的數字，而其他營業所得要用於維持一間店的營運，
+如裝潢、租金、水電費、薪水、勞健保、物流、和日常照顧貓狗費用等等等。 
+
+浪浪別哭每月營業額3%捐助單位為：
+2016/5月份前&gt;
+http://www.tnrtw.org/inoutmoneyDetail.php?b=0&amp;io=in&amp;mon=201704
+
+請在站內搜尋「浪浪別哭」
+
+2016/5月份後&gt;
+https://www.facebook.com/pg/TheEviction/notes/?ref=page_internal
+
+請搜尋　相信動物粉絲專頁&gt;網誌&gt;每月捐款大德
+
+除了3%的回饋之外，我們每天照顧流浪動物，替他們宣傳、替他們找家 ，
+這3%是我們對自己的一個自我的承諾。更希望能作為一個起頭，讓動物食用品相關產業能取之於動物，
+用之於浪浪，製造一個善的循環，讓愛動物的人也把愛分享給在街頭挨餓或無家可歸的浪浪。</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪浪的事2-1" translatesAutoresizingMaskIntoConstraints="NO" id="bts-yy-yKa">
+                                                    <rect key="frame" x="2" y="650" width="372" height="236"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="aQC-cC-gxl" id="b4Z-hN-8ca"/>
+                            <outlet property="delegate" destination="aQC-cC-gxl" id="wPs-JR-UXU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="3%用在哪？" id="Isg-g0-AHs"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MBl-UL-9so" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4174" y="-183"/>
+        </scene>
+        <!--幫助牠們結紮-->
+        <scene sceneID="eAA-lE-KD7">
+            <objects>
+                <tableViewController id="2LB-3n-ZFL" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="foZ-NE-Jri">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="JNx-UB-s0I">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="1180" id="F8W-xs-sNj">
+                                        <rect key="frame" x="20" y="18" width="374" height="1180"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F8W-xs-sNj" id="h0R-vh-1Wh">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="1180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTS-gs-0Dn">
+                                                    <rect key="frame" x="0.0" y="1" width="374" height="299"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text"> 有沒有發現...浪浪怎麼救都救不完...........T T
+幫助一隻找到家，卻又到處看見新的浪浪......
+如果我們不能夠讓他們都有一個溫暖的家，
+那麼就幫助他們結紮，不讓他們出生在街頭到處流浪！
+9月收入的3%，我們捐贈TNR助紮計畫！
+未來每月的收入我們也會撥出固定款項繼續支持TNR
+謝謝這一個月來粉絲們的行動支持！
+幫助浪浪其實一點都不難，用一杯咖啡的金錢就能夠參與！
+深入了解以絕育代替捕殺&gt;
+https://goo.gl/SL2eMT</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪浪的事3-1" translatesAutoresizingMaskIntoConstraints="NO" id="nb9-UZ-8Su">
+                                                    <rect key="frame" x="16" y="308" width="342" height="790"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="2LB-3n-ZFL" id="Nph-jc-6QM"/>
+                            <outlet property="delegate" destination="2LB-3n-ZFL" id="5e0-Mh-RYJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="幫助牠們結紮" id="qHH-zE-ocu"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JE1-rg-7aC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4874" y="-183"/>
+        </scene>
+        <!--浪浪大明星粉絲團 / IG攻略-->
+        <scene sceneID="IST-T0-KAk">
+            <objects>
+                <tableViewController id="Fp5-9w-MQb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="NtH-2C-GBI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79168450339999996" green="0.83499118080000001" blue="0.88348137839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="xrE-Gr-oq0">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="1128" id="77x-Zl-wDV">
+                                        <rect key="frame" x="20" y="18" width="374" height="1128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="77x-Zl-wDV" id="Er3-6m-DpH">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="1128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iva-c1-tQQ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="1145"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">這邊是在浪浪別哭找到家的孩子們
+回家後爸拔媽麻幫他們開的粉絲團/IG，歡迎大家追蹤喔！ 
+Instagram：
+茶茶：chacha_piggypiggy
+嚕小／三寶：lushandsapo
+大頭＆迪迪：ToutouDidy 
+點點：spot_lucybaby_spot
+浪虎：haru_aki_meow
+斑比/羞羞：bambishyshy
+哈哈：littlebinw
+咕嘰：good_ggggg
+浪八&amp;浪東東：moyolaka
+歐文：seven20171230
+奶茶（吉莉）：abbyccs
+浪開／浪媽：unancats
+乖乖：kuo_20170918
+定春：sadaharu_story
+朵朵小花：duoduoflower_a_flower
+Q比（麻吉）：myqbebaby
+巧虎：chenciaohu
+絨絨：longlong0204
+摩卡（鐵蛋）：slurpee_ohyeah
+兜兜：doudouloveuuu
+卡布：chilicapililala 
+Facebook：
+甜甜
+https://goo.gl/gEUSgd
+恭恭
+https://goo.gl/xWs432
+大頭＆迪迪
+https://m.facebook.com/didytoutou/
+TT
+https://www.facebook.com/imsuneo
+黃無敵＆白大熊 
+https://www.facebook.com/woodyandbear/?ref=bookmarks
+斑比／羞羞
+https://m.facebook.com/bambishyshy/
+鬆鬆
+https://goo.gl/f7pVDM
+胖果（恰吉）
+https://www.facebook.com/pumpgogo/
+大肉包
+https://goo.gl/VPXWrn
+雞蛋
+https://m.facebook.com/jomaroundtheworld/?hc_location=ufi
+歐文
+https://www.facebook.com/seven20171230/?hc_location=ufi
+</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Fp5-9w-MQb" id="nSY-jv-ALW"/>
+                            <outlet property="delegate" destination="Fp5-9w-MQb" id="8KJ-Fd-aGY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="浪浪大明星粉絲團 / IG攻略" id="oX6-XQ-Mlb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="63t-K2-Voz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5596" y="-183"/>
+        </scene>
+        <!--SHOP-->
+        <scene sceneID="JsB-SX-95A">
+            <objects>
+                <viewController id="Urm-qH-5V1" customClass="ViewController" customModule="Lang" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9CW-gr-Jmd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shop1" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-Ju-HgR">
+                                <rect key="frame" x="0.0" y="57" width="414" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="這 裡 買 BUY HERE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vso-Ip-aig">
+                                <rect key="frame" x="0.0" y="250" width="414" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shop2" translatesAutoresizingMaskIntoConstraints="NO" id="w9N-sc-9gy">
+                                <rect key="frame" x="19" y="284" width="374" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gJ5-8a-O8W"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SHOP" id="PUb-EO-0Jk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9b-t6-qa0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.6521739130435" y="966.84782608695662"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="C1" width="1352" height="1258"/>
+        <image name="C2" width="1838" height="1308"/>
+        <image name="D1" width="1558" height="1308"/>
+        <image name="D2" width="1584" height="1366"/>
+        <image name="Shop1" width="1742" height="1064"/>
+        <image name="cube.box" catalog="system" width="64" height="62"/>
+        <image name="heart.circle" catalog="system" width="64" height="60"/>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="notice" width="954" height="1360"/>
+        <image name="shop2" width="586" height="980"/>
+        <image name="品牌故事" width="1868" height="884"/>
+        <image name="浪浪的事1" width="524" height="368"/>
+        <image name="浪浪的事2" width="528" height="310"/>
+        <image name="浪浪的事2-1" width="1006" height="670"/>
+        <image name="浪浪的事3" width="526" height="380"/>
+        <image name="浪浪的事3-1" width="564" height="1282"/>
+        <image name="浪浪的事4" width="524" height="424"/>
+        <image name="浪王子1" width="942" height="1294"/>
+        <image name="浪王子2" width="1482" height="1160"/>
+        <image name="浪王子3" width="1546" height="1170"/>
+        <image name="浪王子4" width="1430" height="1300"/>
+        <image name="浪王子5" width="1368" height="1166"/>
+        <image name="浪王子6" width="1480" height="1218"/>
+        <image name="浪貓1" width="602" height="972"/>
+        <image name="浪貓2" width="606" height="856"/>
+        <image name="浪酷寶1" width="1346" height="1380"/>
+        <image name="浪酷寶2" width="1428" height="1254"/>
+        <image name="浪酷寶3" width="1772" height="1260"/>
+        <image name="浪酷寶4" width="1534" height="1312"/>
+        <image name="浪酷寶5" width="1692" height="1276"/>
+        <image name="浪酷寶7" width="1340" height="1274"/>
+        <image name="菜單10" width="960" height="1366"/>
+        <image name="菜單11" width="958" height="1362"/>
+        <image name="菜單12" width="964" height="1370"/>
+        <image name="菜單2" width="962" height="1362"/>
+        <image name="菜單3" width="964" height="1368"/>
+        <image name="菜單4" width="962" height="1366"/>
+        <image name="菜單5" width="964" height="1364"/>
+        <image name="菜單6" width="960" height="1364"/>
+        <image name="菜單7" width="962" height="1366"/>
+        <image name="菜單8" width="962" height="1362"/>
+        <image name="菜單9" width="958" height="1366"/>
+    </resources>
+</document>
